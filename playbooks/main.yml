@@ -1,6 +1,6 @@
 ---
 - name: prep server
-  hosts: tag_infra_docker,tag_infra_proxy
+  hosts: node100,node121
   gather_facts: true
   become: true
   roles:
