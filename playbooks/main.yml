@@ -4,4 +4,4 @@
   gather_facts: true
   become: true
   roles:
-    - role: infra_docker_node
+    - role: docker_common_setup
